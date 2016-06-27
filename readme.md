@@ -16,10 +16,10 @@
   ```diff
 - var myBucket = gcs.bucket('stephen-has-a-new-bucket');
 + var myBucket = gcs.bucket('YOUR_BUCKET_NAME');
-```
+  ```
 
 1. Install npm dependencies and run tests:
   ```sh
 $ npm install
-$ npm test
+$ NODE_DEBUG=request npm test
   ```
