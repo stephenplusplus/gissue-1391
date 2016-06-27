@@ -3,9 +3,6 @@
 1. `cd` into it
 
 1. Edit `test.js` with your project ID\* and credentials\**
-  
-  \* not necessary if you have `GCLOUD_PROJECT` env var set
-<br>  \** not necessary if you are logged in with the gcloud SDK
 
   ```diff
 - var gcs = gcloud.storage();
@@ -13,7 +10,10 @@
 +   projectId: 'project-id',
 +   keyFilename: '/path/to/service/key.json'
 + });
-```
+  ```
+
+  \* not necessary if you have `GCLOUD_PROJECT` env var set
+<br>  \** not necessary if you are logged in with the gcloud SDK
 
 1. Edit `test.js` with the name of your bucket:
 
